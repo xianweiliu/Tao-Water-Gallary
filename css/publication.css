@@ -1,0 +1,67 @@
+
+section #detail{
+    font-size: 20px;
+    margin:50px auto;
+    width: 50%;
+    text-align: center;
+}
+#detail h2{
+    padding-bottom: 20px;
+}
+#detail p{
+    padding-left: 20px;
+    float: left;
+    padding-bottom: 20px;
+}
+#detail p a{
+
+    text-decoration: none;
+}
+#detail p a:hover{
+    font-weight: bolder;
+}
+#detail .button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#cs {
+    text-decoration: none;
+    color: white;
+}
+#detail button a:hover{
+    font-size: 17px; !important;
+}
+section div img{
+    margin-top: 30px;
+}
+footer {
+    color:black;
+    font-weight: bolder;
+    height: 130px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding:30px 50px 80px 50px;
+}
+.footer-info2{
+    border-top: 1px solid #000;
+    text-align: center;
+    padding-top: 30px;
+}
+footer div img{
+    width: 30px;
+    height: 30px;
+}
+#icons {
+    text-align: center;
+    line-height:initial;
+}

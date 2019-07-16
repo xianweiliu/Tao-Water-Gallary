@@ -1,0 +1,52 @@
+section {
+    margin-top: 100px;
+}
+section ul{
+    list-style-type: none;
+}
+#main-content{
+    border-top: 1px solid #000;
+    padding-left: 25%;
+    padding-top: 150px;
+    width: 50%;
+    margin:0 auto;
+    line-height: 50px;
+}
+
+#sidebar-left {
+    width: 50%;
+    background-color: red;
+    margin: 30px auto;
+}
+
+#sidebar-left ul li a {
+    float: left;
+    margin-left: 50px;
+}
+footer {
+    margin-top: 200px;
+    color:black;
+    font-weight: bolder;
+    height: 100px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding:30px 50px 20px 50px;
+}
+
+.footer-info2{
+
+    padding-top: 60px;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+footer div img{
+    padding-bottom: 20px;
+    width: 30px;
+    height: 30px;
+}
+#icons {
+    text-align: center;
+    line-height:initial;
+}

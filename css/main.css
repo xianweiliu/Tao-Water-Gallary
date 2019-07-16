@@ -1,0 +1,44 @@
+html, body{
+    min-height:100%;
+    height: 100%;
+}
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Varlag A', 'Varlag B';
+    font-weight:300;
+    font-style: normal;
+    line-height:26px;
+    background-image: url(../images/background4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    min-height:100%;
+}
+
+footer {
+    color:black;
+    font-weight: bolder;
+    height: 130px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding:30px 50px 80px 50px;
+}
+
+.footer-info2{
+    text-align: center;
+}
+footer div img{
+    width: 30px;
+    height: 30px;
+}
+#icons {
+    text-align: center;
+    line-height:initial;
+}

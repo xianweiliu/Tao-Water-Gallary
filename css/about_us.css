@@ -1,0 +1,42 @@
+section{
+    margin-top: 30px;
+}
+#content {
+    margin: 0 auto;
+    width: 80%  ;
+    height:auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+#content h2{
+    text-align: center;
+}
+#img img{
+    padding-top: 30px;
+    padding-left: 40px;
+    display: inline-block;
+    width: 45%;
+}
+footer {
+    font-weight: bolder;
+    height: 130px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding:30px 50px 80px 50px;
+
+}
+.footer-info2{
+    border-top: 1px solid #000;
+    padding-top: 30px;
+    text-align: center;
+}
+footer div img{
+    width: 30px;
+    height: 30px;
+}
+#icons {
+    text-align: center;
+    line-height:initial;
+}

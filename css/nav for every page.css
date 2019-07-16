@@ -1,0 +1,59 @@
+/* over all set*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*body CSS*/
+body {
+    font-family: 'Varlag A', 'Varlag B';
+    font-weight:300;
+    font-style: normal;
+    line-height:26px;
+    width: 100%;
+}
+/*CSS for nav*/
+header {
+    display: block;
+    background-color: rgba(255,255,255,0.7);
+    padding: 34px 0 50px 0;
+    text-transform: uppercase;
+    width:100%;
+
+}
+#hcontainer{
+    width: 100%;
+    max-width: 1024px;
+    margin:0 auto;
+
+}
+div nav#nav_m::before{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: sub;
+}
+div nav#nav_m{
+    height: 25px;
+}
+#hcontainer .logo span{
+    text-align: center;
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+    color: #35587d;
+}
+#hcontainer nav{
+    text-align: left;
+    float: left;
+}
+#hcontainer nav a {
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 30px !important;
+}
+#hcontainer #nav_m a{
+    color: #000000;
+}
+#hcontainer nav a:hover{
+    text-decoration: underline;
+}

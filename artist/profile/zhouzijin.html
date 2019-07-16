@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tao Water Art Gallery</title>
+    <link rel="stylesheet" href="../../css/cssforeveryartist.css">
+    <link rel="stylesheet" href="../../css/nav%20for%20every%20page.css">
+    <script src="../../js/lightBox.js"></script>
+</head>
+<body>
+<header>
+    <div id="hcontainer">
+        <a class="logo" href="../../mainpage.html"><span>Tao Water art Gallery</span></a>
+        <nav id="nav_m">
+            <a href="../../mainpage.html">Home</a>
+            <a href="../../artist/artist.html">Artist</a>
+            <a href="../../exhibitions/current.html">Exhibition</a>
+            <a href="../../publication/publication.html">Publication</a>
+            <a href="../../contact/contact.html">Contact</a>
+            <a href="../../about/about.html">About</a>
+        </nav>
+    </div>
+</header>
+<section>
+    <div id="artist">
+        <p id="artistinfo">
+            Zhou Zi Jin’s painting reveals a state of the lives of the Chinese people captured in his own experiences. It tells a story about Chinese people and their feelings.
+            Zhou put fragments of the lives  into a totally abstract time and space. When those fragments are extracted from reality and set into this special time and space, they take on a different meaning. They become fixed and eternal. Through his painting, we can get a good close look at the truths of life
+            His painting is ambiguous, as is essential of Surrealism. What makes his painting even more interesting is the simple, calm and geometric abstract world he creates. Zhou provides a space in which the viewer can enlarge his thoughts. While his sunlight, shadow, and almost neutral tones show a quiet distance filled with subtle emotions - happiness, sadness, anxiety or satisfaction , while the open window and the airplane still let you know his heart is flying with hope and love.
+        </p>
+
+        <div class="row">
+            <div class="column">
+                <img src="../../images/zzj09-1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                <p>The Vegetable Farmer</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-10.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                <p>Day Dream</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                <p>Expression No. 2</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-3.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                <p>Expression No. 3</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-4.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                <p>Expression No. 4</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-5.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                <p>My Son</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-6.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                <p>Blue</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-7.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                <p>Missing you</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-8.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                <p>Golden Light</p>
+            </div>
+            <div class="column">
+                <img src="../../images/zzj09-9.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                <p>Onlookers</p>
+            </div>
+
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 10</div>
+                    <img src="../../images/zzj09-1.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 10</div>
+                    <img src="../../images/zzj09-10.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">3 / 10</div>
+                    <img src="../../images/zzj09-2.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="../../images/zzj09-3.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="../../images/zzj09-4.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="../../images/zzj09-5.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="../../images/zzj09-6.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="../../images/zzj09-7.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="../../images/zzj09-8.jpg" >
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="../../images/zzj09-9.jpg" >
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-1.jpg" onclick="currentSlide(1)" alt="The Vegetable Farmer &nbsp; Oil on canvas &nbsp; 64.5 x 49 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-10.jpg" onclick="currentSlide(2)" alt="Day Dream &nbsp; Oil on canvas &nbsp; 45 x 27.5 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-2.jpg" onclick="currentSlide(3)" alt="Expression No. 2 &nbsp; Oil on canvas &nbsp; 28.5 x 21 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-3.jpg" onclick="currentSlide(4)" alt="Expression No. 3 &nbsp; Oil on canvas &nbsp; 40 x 16 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-4.jpg" onclick="currentSlide(5)" alt="Expression No. 4 &nbsp; Oil on canvas &nbsp; 18 x 14 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-5.jpg" onclick="currentSlide(6)" alt="My son &nbsp; Oil on canvas &nbsp; 55 x 38 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-6.jpg" onclick="currentSlide(7)" alt="Blue &nbsp; Oil on canvas &nbsp; 18 x 21 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-7.jpg" onclick="currentSlide(8)" alt="Missing you &nbsp; Oil on canvas &nbsp; 63 x 39 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-8.jpg" onclick="currentSlide(9)" alt="Golden Light &nbsp; Oil on canvas &nbsp; 13 x 24 in">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../../images/zzj09-9.jpg" onclick="currentSlide(10)" alt="Onlookers &nbsp; Oil on canvas &nbsp; 160 x 130 cm">
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-info2">
+        <p>Address : 1989 Route 6A, W. Barnstable, MA 02668</p>
+        <p>Tel & text          774-208-2400,  508-360-4114  </p>
+        <p>e-mail       info@taowatergallery.com</p>
+        <p>Open hours: Summer  10am-6 pm, other season please call for information.</p>
+    </div>
+    <div id="icons">
+        <a href="https://www.facebook.com/TaoWaterArtGallery/" target="_blank"><img src="../../images/fb-icon.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/explore/locations/121374699/tao-water-art-gallery/" target="_blank"><img src="../../images/insta-icon.jpg" alt="Instagram"></a>
+        <a href="https://twitter.com/TaoWaterGallery" target="_blank"><img src="../../images/twitter-icon.png" alt="Twitter"></a>
+    </div>
+</footer>
+</body>
+</html>
